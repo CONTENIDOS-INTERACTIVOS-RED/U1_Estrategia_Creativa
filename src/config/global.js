@@ -95,114 +95,72 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Adaptabilidad',
+      termino: 'Analogías',
       significado:
-        'capacidad de ajustarse eficazmente a cambios en el entorno, manteniendo competitividad.',
-    },
-    {
-      termino: 'Análisis Delphi',
-      significado:
-        'método para alcanzar consenso mediante consultas iterativas a expertos, útil en prospectiva.',
-    },
-    {
-      termino: 'Análisis PESTEL',
-      significado:
-        'herramienta que evalúa factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales.',
+        'Comparación entre elementos diferentes, para encontrar soluciones innovadoras.',
     },
     {
       termino: '<em>Brainstorming</em>',
-      significado:
-        'técnica de generación de ideas en grupo que fomenta creatividad y soluciones innovadoras.',
+      significado: 'Técnica para generar una gran cantidad de ideas, en grupo.',
     },
     {
-      termino: 'Cadenas de Suministro',
+      termino: 'Canales',
       significado:
-        'red que gestiona el flujo de productos o servicios desde la producción hasta el cliente final.',
+        'Medios a través de los cuales se difunde un mensaje (redes sociales, TV, etc.).',
     },
     {
-      termino: '<em>Design Thinking</em>',
-      significado:
-        'enfoque de resolución de problemas que combina creatividad, empatía y estructura.',
+      termino: 'Creatividad',
+      significado: 'Capacidad de generar ideas originales e innovadoras.',
     },
     {
-      termino: 'Economía Circular',
+      termino: 'Estrategia creativa',
       significado:
-        'modelo que promueve la reutilización de recursos, minimizando desechos y optimizando ciclos de vida.',
+        'Plan detallado para comunicar un mensaje de forma original y efectiva, alcanzando objetivos específicos.',
     },
     {
-      termino: 'Economía Verde',
+      termino: 'IA (Inteligencia Artificial)',
       significado:
-        'estrategia de desarrollo sostenible enfocada en reducir el impacto ambiental de las actividades económicas.',
+        'Simulación de procesos de inteligencia humana, por parte de máquinas, especialmente sistemas informáticos.',
     },
     {
-      termino: 'Escenarios Exploratorios',
-      significado:
-        'modelos que proyectan futuros posibles basados en tendencias e incertidumbres actuales.',
+      termino: 'KPI (Indicadores Claves de Rendimiento)',
+      significado: 'Métricas para evaluar el éxito de una campaña.',
     },
     {
-      termino: 'Escenarios Normativos',
+      termino: 'Mapas mentales',
       significado:
-        'modelos de futuros deseados que reflejan objetivos estratégicos específicos.',
+        'Herramienta visual para organizar ideas, de forma no lineal.',
     },
     {
-      termino: 'Escenarios Prospectivos',
-      significado:
-        'proyecciones de futuros posibles que ayudan a guiar la planificación estratégica.',
+      termino: 'Mensaje central',
+      significado: 'Idea principal que se quiere transmitir.',
     },
     {
-      termino: '<em>Feedback</em>',
-      significado:
-        'proceso continuo de revisión y ajuste basado en resultados, mejora la toma de decisiones.',
+      termino: 'Objetivos',
+      significado: 'Metas específicas que se desean alcanzar con una campaña.',
     },
     {
-      termino: 'Gestión del Riesgo',
+      termino: 'Personalización',
       significado:
-        'identificación y mitigación de riesgos para asegurar el logro de objetivos estratégicos.',
+        'Adaptación de un producto o servicio, a las necesidades y preferencias individuales.',
     },
     {
-      termino: 'Innovación Abierta',
-      significado:
-        'estrategia que fomenta la colaboración con agentes externos para desarrollar nuevas ideas y soluciones.',
-    },
-    {
-      termino: 'Innovación Disruptiva',
-      significado:
-        'innovación que transforma sectores mediante productos o servicios accesibles y revolucionarios.',
-    },
-    {
-      termino: 'Innovación Estratégica',
-      significado:
-        'proceso de desarrollo de nuevas ideas para fortalecer la competitividad y adaptarse al entorno.',
-    },
-    {
-      termino: 'Mapa Mental',
-      significado:
-        'herramienta visual que organiza ideas de manera no lineal, fomentando la creatividad.',
-    },
-    {
-      termino: 'Responsabilidad Social Corporativa (RSC)',
-      significado:
-        'compromiso de la empresa con prácticas éticas que beneficien la sociedad y el medio ambiente.',
+      termino: 'Público objetivo',
+      significado: 'Grupo de personas al que se dirige una campaña.',
     },
     {
       termino: 'SCAMPER',
       significado:
-        'técnica que estimula la creatividad mediante Sustituir, Combinar, Adaptar, Modificar, Poner en otro uso, Eliminar y Reordenar.',
+        'Técnica para generar nuevas ideas, a partir de un producto o servicio existente.',
     },
     {
-      termino: '<em>Six Thinking Hats</em>',
+      termino: 'Tono de voz',
       significado:
-        'método de toma de decisiones que explora perspectivas mediante seis tipos de pensamiento.',
+        'Estilo de comunicación, utilizado para transmitir un mensaje.',
     },
     {
-      termino: 'Sostenibilidad',
-      significado:
-        'enfoque que equilibra crecimiento económico, equidad social y protección ambiental a largo plazo.',
-    },
-    {
-      termino: '<em>World</em> Café',
-      significado:
-        'técnica de diálogo colaborativo que permite explorar ideas en grupos pequeños y conectar aportes.',
+      termino: 'Usuario final',
+      significado: 'Persona que utiliza directamente un producto o servicio.',
     },
   ],
 }

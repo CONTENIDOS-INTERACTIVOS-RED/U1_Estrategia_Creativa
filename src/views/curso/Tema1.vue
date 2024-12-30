@@ -178,7 +178,34 @@
             .tarjeta-move__content.w-100(style="background-color: #e3d7da; border: solid 2px #e23e64")
               p.mb-0 Asociar la marca con valores como la superación personal, resultó en una conexión emocional profunda, con el público.
     
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/172965?fs_q=creatividad&fs_page=3&prev=fs" target="_blank" rel="noopener noreferrer") Guilera, L. (2021). Productos y servicios inteligentes y sostenibles: técnicas para la innovación y la creatividad. Marge Books.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/271733?fs_q=estrategias__de__contenidos&prev=fs" target="_blank" rel="noopener noreferrer") Rodrigo Martín, L. (2024). Creatividad en la narrativa publicitaria: estrategia, contenidos y discursos. Dykinson. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/267031?fs_q=creatividad&fs_page=3&prev=fs" target="_blank" rel="noopener noreferrer") Kotler, P. (2024). Marketing empresarial: más allá del profesionalismo, hacia la creatividad, el liderazgo y la sostenibilidad. Ediciones Granica.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://open.spotify.com/intl-es/album/0czWD4khMpBWDAayo25iQt" target="_blank" rel="noopener noreferrer") David Campbel (Presentador). (2022). El Arte de la Manipulación.
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
