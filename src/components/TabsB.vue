@@ -10,10 +10,11 @@
     )
       .indicador__container(v-if="mostrarIndicador && index === 1")
         .indicador--click
-      .tabs-b__tab__icon(v-if="elm.icono")
-        img(:src="elm.icono")
-      .tabs-b__tab__title
-        span(v-html="elm.titulo")
+      .d-flex.align-items-center.justify-content-center
+        .tabs-b__tab__icon(v-if="elm.icono").mb-0
+          img(:src="elm.icono" style="width: 40px").me-3.mb-0
+        .tabs-b__tab__title
+          span(v-html="elm.titulo")
 
   .tabs-b__content-item(
     v-for="elm of elements"

@@ -14,7 +14,7 @@
           .indicador__container(v-if="mostrarIndicador && index === 1")
             .indicador--click
           span(v-html="item.numero")
-        .linea-tiempo-d__item__dots(
+        .linea-tiempo-d__item__dots.d-none(
           v-if="index < elements.length -1"
         )
   
@@ -56,16 +56,16 @@ export default {
   .linea-tiempo-d__item__content__title
     padding: 28px
     border-radius: 5px 5px 0px 0px
-    background-color: lighten($color-primario, 30%)
+    background-color: lighten($color-secundario, 30%)
   .linea-tiempo-d__item__content__title.active
     background-color: $color-primario !important
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
+    background-color: lighten($color-secundario, 37%) !important
   .linea-tiempo-d__item__number
-    background-color: lighten($color-primario, 30%)
+    background-color: lighten($color-secundario, 30%)
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: $color-primario !important
+    background-color: $color-secundario !important
   .linea-tiempo-d__item__dots:after
     border-left: 0px
   .fa-angle-up, .fa-angle-down
@@ -75,20 +75,20 @@ export default {
 .linea-tiempo-d__item__content__title
   padding: 12px 26px
   border-radius: 5px 5px 0px 0px
-  background-color: #FAD3FC
+  background-color: #fee6da
 .linea-tiempo-d__item__content__title.active
-  background-color: #FDEFFE
+  background-color: #fd884d
 .linea-tiempo-d__item__content__slot
   border-radius: 0px 0px 5px 5px
-  background-color: #FDEFFE
+  background-color: #fee6da
 .linea-tiempo-d__item__number
-  background-color: #FAD3FC
+  background-color: #fd884d
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #FDEFFE !important
+  background-color: #fd884d !important
 .linea-tiempo-d__item__dots:after
   border-left: 0px
 .linea-tiempo-d__item__dots:after
   border-left: 5px dotted #D2E1F1
 .fa-angle-up, .fa-angle-down
-  display: none
+  display: block
 </style>

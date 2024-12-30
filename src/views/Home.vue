@@ -22,9 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 En un entorno global donde los cambios sociales, ambientales y tecnológicos son constantes, las organizaciones deben innovar para garantizar su sostenibilidad y relevancia. Esta unidad explora cómo integrar la sostenibilidad en las estrategias empresariales, fomentando el desarrollo económico, social y ambiental. Aprenderás a identificar oportunidades de innovación, aplicar herramientas analíticas y comprender la importancia de la responsabilidad social corporativa para transformar las organizaciones hacia un impacto positivo sostenible.
-              
-              p #[b ¡Prepárate para impulsar el cambio en un mundo en evolución constante con visión estratégica y creativa!]
+              p.descripcion.mb-4 La creatividad es esencial para diferenciar marcas en un mundo saturado de mensajes publicitarios. Esta unidad explora los fundamentos de la estrategia creativa, su impacto en la comunicación publicitaria y metodologías para desarrollar ideas innovadoras. Se analizarán casos de éxito y fracaso, integrando herramientas como inteligencia artificial y técnicas como #[em brainstorming], SCAMPER y #[em design thinking]. Además, se destacará la importancia del storytelling y la gamificación para conectar emocionalmente con el público y generar recordación. Al final, aprenderás a combinar estas metodologías para crear campañas memorables y efectivas.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

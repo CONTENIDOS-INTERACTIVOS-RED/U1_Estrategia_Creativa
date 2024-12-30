@@ -106,15 +106,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 30%) !important
+  background-color: #fedac8
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: #fd884d
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: #fedac8
 
 
 .anexo__texto
@@ -191,21 +191,25 @@ $custom-card-img-height: 322px
   span
     font-size: 0.85em
 
-.large
-  .linea-tiempo-d__item__content__title
-    padding: 28px
-    border-radius: 5px 5px 0px 0px
-    background-color: lighten($color-primario, 30%)
-  .linea-tiempo-d__item__content__title.active
-    background-color: $color-primario !important
-  .linea-tiempo-d__item__content__slot
-    border-radius: 0px 0px 5px 5px
-    background-color: lighten($color-primario, 37%) !important
-  .linea-tiempo-d__item__number
-    background-color: lighten($color-primario, 30%)
-  .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: $color-primario !important
-  .linea-tiempo-d__item__dots:after
-    border-left: 0px
-  .fa-angle-up, .fa-angle-down
-    display: block
+
+.bg-1
+  background-image: url("../assets/curso/temas/bg-1.svg") !important
+.lista-ol--cuadro__vineta
+  background-color: #AC59F1 
+.tarjeta-move
+  position: relative
+  &__title
+    position: relative
+    border-radius: 20px
+    padding: 2rem 4rem
+    display: inline-block
+    h3
+      color: white
+  &__content
+    padding: 4rem
+    border-radius: 20px
+    p
+      margin-left: 2rem
+    // @media (min-width: $bp-min-lg  )
+    margin-left: -4rem     
+    z-index:  

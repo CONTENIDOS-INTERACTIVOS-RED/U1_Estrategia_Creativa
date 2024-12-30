@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Innovación estratégica y desarrollo sostenible',
+    numeroUnidad: '1',
+    tituloUnidad: 'Fundamentos de la estrategia creativa',
   },
   menuPrincipal: {
     menu: [
