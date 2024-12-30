@@ -55,7 +55,7 @@
           h4.text-center Automatización de tareas
           p.mb-0.text-center Libera tiempo para actividades estratégicas y creativas.
     p.mb-4.fw-bold Las aplicaciones prácticas de la IA, son: 
-    .bg-full-width.p-5.bg-slyder
+    .bg-full-width.p-5.bg-slyder.mb-5
       SlyderA(tipo='b').bg-white
         .row.justify-content-center.mb-5.p-5
           .col-lg-7.mb-lg-0.mb-3
